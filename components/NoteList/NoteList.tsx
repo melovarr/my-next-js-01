@@ -1,5 +1,5 @@
-import { Note } from '@/lib/api';
-import NoteItem from '@/components/NoteItem/NoteItem';
+import { Note } from '../../lib/api';
+import NoteItem from '../NoteItem/NoteItem';
 
 type Props = {
   notes: Note[];

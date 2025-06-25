@@ -1,6 +1,6 @@
 // 1. Імпортуємо функцію
-import { getNotes } from '@/lib/api';
-import NoteList from '@/components/NoteList/NoteList';
+import { getNotes } from '../../../lib/api';
+import NoteList from '../../../components/NoteList/NoteList';
 
 // 2. Робимо фукнцію асинхронною
 const Notes = async () => {
